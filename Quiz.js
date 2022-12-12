@@ -40,9 +40,9 @@ const Questions = [{
     }
 ];
 
-var count = 1 ;
-var marks = 0 ;
-var Answer ; 
+var count = 1;
+var marks = 0;
+var Answer; 
 
 
 $(document).ready(function(){
@@ -94,7 +94,7 @@ $(document).ready(function(){
         console.log("radio Value : " + radioValue);
         console.log("Answer : " + Answer);
         if(radioValue == Answer){
-            marks = marks + 1 ;
+            marks = marks + 1;
         }
         console.log("Marks : "+ marks);
     }
@@ -145,7 +145,7 @@ $(document).ready(function(){
         $('#flexRadioDefault3').attr("value",Question[i].options[2]);
         $('#flexRadioDefault4').attr("value",Question[i].options[3]);
 
-        //storing the answer in Answer var
+        //storing the answer in Answer variable
         Answer = Question[i].answer;
     }
 })
