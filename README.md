@@ -1,1 +1,1 @@
-# Jquery_Assignment
+This is a page for a quiz application
